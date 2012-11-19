@@ -9,9 +9,11 @@ then
 fi
 
 echo "tag名を入力して下さい(例:v1.3.0)"
+git tag
 read TAG_NAME
 
 echo "branch名を入力して下さい(例:hotfix-1.3.x)"
+git branch
 read BRANCH_NAME
 echo "========================================="
 echo "tag名は $TAG_NAME です"
