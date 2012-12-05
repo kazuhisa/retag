@@ -25,6 +25,9 @@ then
   exit 0
 fi
 
+# 最新のtagを取得
+git pull origin --tags
+
 # tagを削除
 git tag -d $TAG_NAME
 
